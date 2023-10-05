@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "saisissez un nombre pour a " a
+
+read -p "saisissez un nombre pour b " b
+
+sum=$(($a+$b)) 
+
+echo "voici la réponse: " $sum
